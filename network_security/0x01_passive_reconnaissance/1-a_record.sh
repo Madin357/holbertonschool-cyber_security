@@ -1,2 +1,2 @@
 #!/bin/bash
-nslookup -type=A "$1" | awk '/^Address: / {print $2}'
+echo "A record for $1:"; nslookup -type=A "$1" | awk '/^Address: / {print $2}'
