@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo nestat -ltnup
+sudo netstat -ltnup
