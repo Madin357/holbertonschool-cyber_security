@@ -1,1 +1,1 @@
-sudo nmap -sO 192.168.0.1
+icmp
