@@ -1,1 +1,1 @@
-tcp.flags.fin == 1 and tcp.flags.syn == 0 and tcp.flags.ack == 0 and tcp.flags.rst == 0 and tcp.flags == 0x001 and icmp.type == 3 and icmp.code == 3 and udp.dstport == 7 and icmp.type == 8 or icmp.type == 0 and arp.dst.hw_mac == 9
+tcp.flags.fin == 1 and tcp.flags.syn == 0 and tcp.flags.ack == 0 and tcp.flags.rst == 0 and tcp.flags == 0x001 and icmp.type == 3 and icmp.code == 3 and udp.dstport == 7 and icmp.type == 8 or icmp.type == 0 and arp.dst.hw_mac == 00:00:00:00:00:00
